@@ -6,7 +6,7 @@ def custom_formatter(x, pos):
     else:
         return rf'${x:.1f}$'
 
-def set_plot_params(use_tex=True):
+def set_plot_params(use_tex=False):
 
     import numpy as np
     import matplotlib.pyplot as plt
