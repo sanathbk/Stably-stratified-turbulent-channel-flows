@@ -35,12 +35,6 @@ def set_plot_params(use_tex=True):
         'figure.constrained_layout.use': True
     })
 
-    greys   = [plt.get_cmap("Greys", 16)(i) for i in range(1, 15)]
-    blues   = cmocean.tools.crop_by_percent(cmocean.cm.balance_r, 50, which='min', N=10)
-    reds    = cmocean.tools.crop_by_percent(cmocean.cm.balance, 50, which='min', N=10)
-    greens  = cmocean.tools.crop_by_percent(cmocean.cm.algae, 10, which='max', N=10)
-    purples = cmocean.tools.crop_by_percent(cmocean.cm.amp, 10, which='min', N=10)
-
-    return greys, blues, reds, greens, purples
+    return 0
 
 __all__ = ['set_plot_params', 'custom_formatter']
