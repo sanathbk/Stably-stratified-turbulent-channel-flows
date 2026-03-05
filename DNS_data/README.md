@@ -50,4 +50,4 @@ where
 
 
 
-An example post-processing script is included in the repository (`post_public.ipynb`). It generates plots of the mean velocity profile in different flow regions and evaluates the deviation between the coefficient of friction predicted by the model and the values obtained from DNS.
+An example post-processing script is included in the repository ([`post_public.ipynb`](../post_public.ipynb)). It generates plots of the mean velocity profile in different flow regions and evaluates the deviation between the coefficient of friction predicted by the model and the values obtained from DNS.
