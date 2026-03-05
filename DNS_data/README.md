@@ -1,7 +1,7 @@
 The directory contains the DNS data used in the present study. The DNS data files follow the naming convention:
 
 #
-data[$Re_{\tau}$]_[$Ri_{\tau}$].csv
+data[$Re_{\tau}$]__[$Ri_{\tau}$].csv
 #
 
 
